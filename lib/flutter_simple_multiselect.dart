@@ -296,8 +296,16 @@ class FlutterMultiselectState<T> extends State<FlutterMultiselect<T>> {
                                         widget.suggestionsBoxRadius ?? 0),
                                     topRight: Radius.circular(
                                         widget.suggestionsBoxRadius ?? 0),
+                              bottomLeft: Radius.circular(
+                                  widget.suggestionsBoxRadius ?? 0),
+                              bottomRight: Radius.circular(
+                                  widget.suggestionsBoxRadius ?? 0),
                                   )
                                 : BorderRadius.only(
+                              topLeft: Radius.circular(
+                                  widget.suggestionsBoxRadius ?? 0),
+                              topRight: Radius.circular(
+                                  widget.suggestionsBoxRadius ?? 0),
                                     bottomLeft: Radius.circular(
                                         widget.suggestionsBoxRadius ?? 0),
                                     bottomRight: Radius.circular(
